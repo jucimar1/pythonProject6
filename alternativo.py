@@ -67,6 +67,38 @@ def main():
         print("Error! cannot create the database connection.")
 
 
+<<<<<<< HEAD
+=======
+
+
+
+    # função que faz conexao com banco de dados
+    # def create_connection(db_file):
+    #     banco = None
+    #     try:
+    #         banco = sqlite3.connect(db_file)
+    #         print(sqlite3.version)
+    #     except Error as e:
+    #         print(e)
+    #     finally:
+    #         if banco:
+    #             banco.close()
+    #
+    #
+
+    # def add_values(self):
+    #     self.count = self.count + 1  # this is incrementing counter
+    #     self.tableWidget_2.insertRow(self.count)
+    #     self.tableWidget_2.setRowCount(self.count)
+    #     # these are the items in the database
+    #     item = [column1, column2, column3]
+    #     # here we are adding 3 columns from the db table to the tablewidget
+    #     for i in range(3):
+    #         self.tableWidget_2.setItem(self.count - 1, i, QTableWidgetItem(item[i]))
+
+
+
+>>>>>>> fa157ca (Initial commit)
 if __name__ == '__main__':
     main()
     print("e finalizamos por aqui")
