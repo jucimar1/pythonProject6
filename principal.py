@@ -17,9 +17,12 @@ class Ui(QtWidgets.QMainWindow):
         self.button = self.findChild(QtWidgets.QPushButton, "pushButton")
         self.button.clicked.connect(self.salvar_dados)
 
+<<<<<<< HEAD
         self.buttonv = self.findChild(QtWidgets.QPushButton, 'pushButton_pag_visual')
         self.buttonv.clicked.connect(self.listar)
 
+=======
+>>>>>>> fa157ca (Initial commit)
         self.input = self.findChild(QtWidgets.QLineEdit,'lineEdit_nome')
         self.input2 = self.findChild(QtWidgets.QLineEdit, 'lineEdit_valor')
         self.input3 = self.findChild(QtWidgets.QDateEdit, 'dateEdit')
@@ -28,6 +31,7 @@ class Ui(QtWidgets.QMainWindow):
         self.buttonvo.clicked.connect(self.voltar)
 
 
+<<<<<<< HEAD
 
     # função que faz conexao com banco de dados
     # def create_connection(db_file):
@@ -53,6 +57,8 @@ class Ui(QtWidgets.QMainWindow):
     #     for i in range(3):
     #         self.tableWidget_2.setItem(self.count - 1, i, QTableWidgetItem(item[i]))
 
+=======
+>>>>>>> fa157ca (Initial commit)
     def salvar_dados(self):
         nome = self.input.text()
         valor= self.input2.text()
@@ -66,6 +72,7 @@ class Ui(QtWidgets.QMainWindow):
             banco.commit()
             banco.close()
 
+<<<<<<< HEAD
 
 
             self.input.setText("")
@@ -83,10 +90,16 @@ class Ui(QtWidgets.QMainWindow):
 
 
 
+=======
+            self.input.setText("")
+            self.input2.setText("")
+
+>>>>>>> fa157ca (Initial commit)
         except sqlite3.Error as erro:
             print("Aconteceu alguma coisa",  erro)
 
 
+<<<<<<< HEAD
     def listar(self):
         self.tela2 = uic.loadUi('visualizar.ui', self)
         self.tela2.show()
@@ -136,5 +149,14 @@ window = Ui()
 window.show()
 app.exec_()
 
+=======
+#
+# app = QtWidgets.QApplication(sys.argv)
+#
+# window = Ui()
+# window.show()
+# app.exec_()
+#
+>>>>>>> fa157ca (Initial commit)
 
 
