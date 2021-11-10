@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Cadastrar</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="lbl_nome">
@@ -166,7 +166,7 @@ font: 75 13pt &quot;Ubuntu&quot;;</string>
      </rect>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_pag_visual">
+   <widget class="QPushButton" name="pushButton_dados">
     <property name="geometry">
      <rect>
       <x>240</x>
@@ -176,7 +176,7 @@ font: 75 13pt &quot;Ubuntu&quot;;</string>
      </rect>
     </property>
     <property name="text">
-     <string>visual</string>
+     <string>visualizar</string>
     </property>
    </widget>
   </widget>
