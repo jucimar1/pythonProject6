@@ -75,21 +75,10 @@ class Ui(QtWidgets.QMainWindow):
         banco1.close()
 
     def voltar(self):
-
-        # valor = (self.input.text())
-        # resultado = int(valor) + 8
-        # print('Ole o olá')
-        # print("Agora sim o resultado : ",resultado)
         self.tela2.show()
 
 
 
-
-app = QtWidgets.QApplication(sys.argv)
-
-window = Ui()
-window.show()
-app.exec_()
 
 
 

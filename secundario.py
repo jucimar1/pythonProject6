@@ -32,17 +32,4 @@ class Ui_Visualizar(QtWidgets.QMainWindow):
                 self.tela2.tableWidget.setItem(i, j, QtWidgets.QTableWidgetItem(str(dados_lidos[i][j])))
                 banco1.close()
 
-            # def load_initial_data(self):
-            #     # where c is the cursor
-            #     self.c.execute('''SELECT * FROM table ''')
-            #     rows = self.c.fetchall()
-            #
-            #     for row in rows:
-            #         inx = rows.index(row)
-            #         self.tableWidget_2.insertRow(inx)
-            #         # add more if there is more columns in the database.
-            #         self.tableWidget_2.setItem(inx, 0, QTableWidgetItem(row[1]))
-            #         self.tableWidget_2.setItem(inx, 1, QTableWidgetItem(row[2]))
-            #         self.tableWidget_2.setItem(inx, 2, QTableWidgetItem(row[3]))
-
 
