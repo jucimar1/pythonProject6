@@ -55,7 +55,7 @@
      <string>Visualizar</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_v">
+   <widget class="QPushButton" name="pushButton_voltar">
     <property name="geometry">
      <rect>
       <x>180</x>

@@ -7,6 +7,14 @@ class Tela(QMainWindow):
     def __init__(self):
         super().__init__()
         self.ui = Ui()
+        
+
+
+
+class Tela2(QMainWindow):
+    def __init__(self):
+        super(Tela2, self).__init__()
+        self.ui = Ui_Visualizar()
 
 
 

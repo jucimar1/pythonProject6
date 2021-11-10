@@ -19,12 +19,8 @@ class Ui(QtWidgets.QMainWindow):
         self.input2 = self.findChild(QtWidgets.QLineEdit, 'lineEdit_valor')
         self.input3 = self.findChild(QtWidgets.QDateEdit, 'dateEdit')
 
-        self.buttonvo = self.findChild(QtWidgets.QPushButton, 'pushButton_v')
+        self.buttonvo = self.findChild(QtWidgets.QPushButton, 'pushButton_dados')
         self.buttonvo.clicked.connect(self.voltar)
-
-
-
-
 
 
     def salvar_dados(self):
@@ -40,17 +36,8 @@ class Ui(QtWidgets.QMainWindow):
             banco.commit()
             banco.close()
 
-
-
-
             self.input.setText("")
             self.input2.setText("")
-
-
-
-            self.input.setText("")
-            self.input2.setText("")
-
 
         except sqlite3.Error as erro:
             print("Aconteceu alguma coisa",  erro)
